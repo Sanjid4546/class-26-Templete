@@ -1,0 +1,145 @@
+.blog-content span {
+	color: #7693f1;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.blog-content h2 {
+	font-weight: 700;
+	text-transform: capitalize;
+	font-size: 38px;
+	margin-top: 10px;
+	margin-bottom: 32px;
+	position: relative;
+}
+.blog-content h2::before {
+	content: "";
+	height: 2px;
+	width: 50px;
+	position: absolute;
+	bottom: -19px;
+	left: 258px;
+	background: #7693f1;
+}
+.blog-content p {
+	color: #767676;
+}
+.blog-content h3 {
+	font-size: 23px;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-top: 20px;
+}
+.blog-content p {
+	margin-top: 18px;
+}
+.blog-image img::before{
+	content: "";
+
+}
+.blog-image{
+	position: relative;
+
+
+}
+.photo img {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+.photos-div {
+	background: #3a63ea;
+	height: 51px;
+	width: 215px;
+	border-radius: 35px;
+	position: absolute;
+	top: 513px;
+	left: 482px;
+}
+img{
+	max-width: 100%;
+}
+.photo-content p {
+	color: white;
+	text-transform: uppercase;
+	margin-top: 8px;
+	font-size: 14px;
+	display: block;
+	font-weight: 600;
+}
+.item-2 {
+	background: #3a63ea;
+	height: 51px;
+	width: 215px;
+	border-radius: 35px;
+	position: absolute;
+	top: 513px;
+	left: 922px;
+}
+.item-3 {
+	background: #3a63ea;
+	height: 51px;
+	width: 215px;
+	border-radius: 35px;
+	position: absolute;
+	top: 513px;
+	left: 1368px;
+}
+.footer-section{
+	background: #101e2c ;
+}
+.footer-image {
+	width: 164px;
+	margin-top: 42px;
+}
+.footer-content {
+	color: white;
+	margin-top: 26px;
+	margin-right: 254px;
+	width: 178px;
+	line-height: 1.8rem;
+}
+.footer-icon span i {
+	color: white;
+	padding: 20px 7px;
+}
+.blog-list h2 {
+	font-size: 19px;
+	margin-top: 40px;
+}
+.blog-list ul {
+	padding-left: 0;
+	list-style: none;
+	margin-top: 5px;
+}
+.blog-list ul li {
+	padding: 10px 0px;
+	color: #767676;
+}
+
+.blog-list h2 {
+	position: relative;
+	margin-left: 12px;
+}
+.footer-icon {
+	padding-bottom: 35px;
+}
+
+.blog-list h2::before {
+	content: "";
+	position: absolute;
+	top: 6px;
+	left: -11px;
+	width: 2px;
+	height: 21px;
+	background: #3a63ea;
+}
+
+.mood-off {
+	border-bottom: 1px solid #767676;
+}
+.footer-devoloper p {
+	position: relative;
+	top: 32px;
+}
